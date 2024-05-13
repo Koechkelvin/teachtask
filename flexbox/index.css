@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(233, 166, 22);
+}
+.fonts{
+    text-align: center;
+    padding: 20px;
+    font-size: 69px;
+}
+.cards{
+    display: flex;
+    column-gap: 20px;
+    justify-content: center;
+
+}
+.card1, .card2, .card3{
+    background-color: white;
+    border-radius: 5px;
+    padding: 6px;
+    width: 300px;
+}
+.angular, .react, .vue{
+    text-align: center;
+    font-size: 20px;
+}
+img{
+    align-items: center;
+}

@@ -1,0 +1,44 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color: #cbd8eb;
+}
+.card{
+    background-color: #ebeff5;
+    box-shadow: 10px 40px hsl(22, 120px, 221)px;
+    border-radius: 15px;
+    padding: 4%;
+    height: 500px;
+    top: 25%;
+    width: 250px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+
+}
+.images{
+    column-gap: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.header{
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0px;
+    margin: 100px;
+}
+img{
+    width: 30px;
+}
+.button{
+    background-color: white;
+    padding: 5px;
+height: 100px;
+width: 180px;
+margin: 45px;
+border-radius: 15px;
+align-items: center;
+}
